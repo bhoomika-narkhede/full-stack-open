@@ -1,3 +1,9 @@
+
+    sequenceDiagram
+    participant User
+    participant Browser
+    participant Server
+
     User->>Browser: Types a note and clicks Save
     Browser->>Server: POST /new_note
     Note right of Browser: The note is sent in the request body
@@ -17,4 +23,4 @@
     Browser->>Server: GET /data.json
     Server-->>Browser: Updated notes
 
-    Browser->>Browser: Displays the new note
+    Browser->>Browser: Displays the new note 
