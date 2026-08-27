@@ -1,5 +1,7 @@
+# Exercise 0.4
 
-    sequenceDiagram
+```mermaid
+sequenceDiagram
     participant User
     participant Browser
     participant Server
@@ -23,4 +25,5 @@
     Browser->>Server: GET /data.json
     Server-->>Browser: Updated notes
 
-    Browser->>Browser: Displays the new note 
+    Browser->>Browser: Displays the new note
+``` 
